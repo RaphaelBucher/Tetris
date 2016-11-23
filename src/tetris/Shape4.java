@@ -11,12 +11,12 @@ package tetris;
  * </pre>
  */
 public class Shape4 extends Shape {
-	private static final int[][] RELATIVE_BLOCKS_RELATIVE_POS = {{-1, 0},  //Block 1
-																 {1, 0},  //Block 2
-																 {1, 1}}; //Block 3
+  private static final int[][] RELATIVE_BLOCKS_RELATIVE_POS = { { -1, 0 }, // Block
+                                                                           // 1
+      { 1, 0 }, // Block 2
+      { 1, 1 } }; // Block 3
 
-	public Shape4(Board boardReferenceCopy) {
-		super(Config.SHAPE_4_COLOR, RELATIVE_BLOCKS_RELATIVE_POS, boardReferenceCopy);
-	}
+  public Shape4(Board boardReferenceCopy) {
+    super(Config.SHAPE_4_COLOR, RELATIVE_BLOCKS_RELATIVE_POS, boardReferenceCopy);
+  }
 }
-
