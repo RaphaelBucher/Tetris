@@ -38,6 +38,5 @@ public interface Config {
 	int FULL_ROW_BLINKING_TIME = 900;
 	Color FULL_ROW_BLINK_COLOR = Color.WHITE;
 	
-	String[] AUDIO_THEME_FILENAMES = {"./audio/theme1.wav", "./audio/theme2.wav", "./audio/theme3.wav",
-			"./audio/theme4.wav", "./audio/theme5.wav"};
+	String[] AUDIO_THEME_FILENAMES = {"./audio/theme1.wav", "./audio/theme2.wav", "./audio/theme3.wav"};
 }
